@@ -1,0 +1,86 @@
+body, div, img, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt,
+blockquote, fieldset, legend, label, input, textarea {
+    margin: 0; 
+    padding: 0; 
+    border: 0;
+}
+header{
+	height:	100vh;
+}
+.homeContent{
+	background-image: url(./img/MoroshkaMainMax.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height:	75vh;	
+	position: relative;
+	margin:0 auto;	
+}
+
+nav ul li{
+	display: inline;	
+}
+
+
+/*
+.main-nav  a
+{	
+	margin: 9%;
+    position: relative;
+    font-size: 1.6rem;
+    font-family: serif;
+    text-decoration: none;
+    color: black;
+}
+.main-nav a:hover{
+	text-decoration:underline;
+}
+.logo{
+	position: relative;
+	font-size: 3rem;
+    letter-spacing: 0.1767em;
+    font-family: serif;
+}
+.downLogo{
+ 	letter-spacing: 0.3237em;
+}
+p{
+	text-align: center;
+}
+
+@media screen and (max-width: 500px){
+	#mainBG{
+		background-image: url(./img/MoroshkaMainMin.jpg);
+	}
+	.homeContent{
+		width: 100%;
+		height:	80.25em;
+	}
+
+}*/
+
+/*img{
+	width: 575px;
+	height: auto;
+}*/
+.gallery > *
+{
+	float: left;
+	padding: 0 0 0 24px;
+	width: 30vw;
+	height: auto;
+	clear: none;
+	margin-left: 0;
+}
+
+.adaptive-image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.galleryItem{
+}
