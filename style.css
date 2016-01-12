@@ -21,7 +21,7 @@ header{
 }
 
 nav ul li{
-	display: inline;	
+	display: inline;
 }
 
 
@@ -72,22 +72,29 @@ p{
 .gallery > *
 {
 	float: left;
-	padding: 0 0 0 5em;
-	width:  28vw;
+	padding: 0 0 0 6em;
+	/*width:  26vw;*/
 }
 
 .adaptive-image {
-	width: 100%;
-	/*max-width: 100%;*/
-	border-style: solid;
-	border-width: 1px;
-
-	-webkit-filter: sepia(60%);
-}
+	max-width: 100%;
+	height: auto;
+	border-width: 0 2rem 0 2rem;
+	position: absolute;
+    -moz-border-image: url(img/diaM.jpg) 0 140 0 155 repeat;
+    -webkit-border-image: url(img/diaM.jpg) 0 140 0 155 repeat; 
+    -o-border-image: url(img/diaM.jpg) 0 140 0 155 repeat;
+    border-image: url(img/diaM.jpg) 0 141 0 157 repeat;
+ }
 
 .galleryItem{
-	border-style: solid dashed solid dashed;
-	border-color: black;
-	border-width: 10px 17px 10apx 17px;
-	outline-style: solid;
+	width: 26vw;
+	height: auto;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+	overflow: hidden;
+}
+.mask{
+}
+div.mask ul{
+	list-style: none;
 }
