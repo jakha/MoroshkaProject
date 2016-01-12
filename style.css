@@ -66,21 +66,28 @@ p{
 	width: 575px;
 	height: auto;
 }*/
+.gallery{
+	overflow: hidden;
+}
 .gallery > *
 {
 	float: left;
-	padding: 0 0 0 24px;
-	width: 30vw;
-	height: auto;
-	clear: none;
-	margin-left: 0;
+	padding: 0 0 0 5em;
+	width:  28vw;
 }
 
 .adaptive-image {
-	display: block;
-	max-width: 100%;
-	height: auto;
+	width: 100%;
+	/*max-width: 100%;*/
+	border-style: solid;
+	border-width: 1px;
+
+	-webkit-filter: sepia(60%);
 }
 
 .galleryItem{
+	border-style: solid dashed solid dashed;
+	border-color: black;
+	border-width: 10px 17px 10apx 17px;
+	outline-style: solid;
 }
